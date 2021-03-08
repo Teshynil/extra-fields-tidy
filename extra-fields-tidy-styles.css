@@ -1,0 +1,15 @@
+/* tidy 5e compatibility */
+.tidy5e.sheet.actor .extra-fields-tidy .extra-field{
+    width: calc(33.33% - 2px);
+    display: inline-flex;
+    flex-direction: column;
+}
+.tidy5e.sheet.actor .extra-fields-tidy .extra-field input{
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+}
+.tidy5e.sheet.actor .extra-fields-tidy .extra-field input{
+    text-align: center;
+    font-weight: bold;
+}
